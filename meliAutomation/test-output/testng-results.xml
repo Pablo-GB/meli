@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="78382" started-at="2019-03-31T03:58:32Z" finished-at="2019-03-31T03:59:50Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="78382" started-at="2019-03-31T03:58:32Z" finished-at="2019-03-31T03:59:50Z">
+      <class name="org.meliAutomation.Test2">
+        <test-method status="PASS" signature="setBaseURL()[pri:0, instance:org.meliAutomation.Test2@2a5ca609]" name="setBaseURL" is-config="true" duration-ms="27139" started-at="2019-03-31T00:58:33Z" finished-at="2019-03-31T00:59:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBaseURL -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:org.meliAutomation.Test2@2a5ca609]" name="test" duration-ms="34979" started-at="2019-03-31T00:59:00Z" data-provider="DP1" finished-at="2019-03-31T00:59:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[p@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ingresaste un e-mail o usuario de Mercado Libre Costa Rica]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:org.meliAutomation.Test2@2a5ca609]" name="quit" is-config="true" duration-ms="800" started-at="2019-03-31T00:59:35Z" finished-at="2019-03-31T00:59:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setBaseURL()[pri:0, instance:org.meliAutomation.Test2@2a5ca609]" name="setBaseURL" is-config="true" duration-ms="5086" started-at="2019-03-31T00:59:36Z" finished-at="2019-03-31T00:59:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBaseURL -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:org.meliAutomation.Test2@2a5ca609]" name="test" duration-ms="8081" started-at="2019-03-31T00:59:41Z" data-provider="DP1" finished-at="2019-03-31T00:59:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ingresaste un e-mail o usuario de Mercado Libre México]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:org.meliAutomation.Test2@2a5ca609]" name="quit" is-config="true" duration-ms="614" started-at="2019-03-31T00:59:49Z" finished-at="2019-03-31T00:59:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- org.meliAutomation.Test2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
