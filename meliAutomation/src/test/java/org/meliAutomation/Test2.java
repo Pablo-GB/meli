@@ -21,8 +21,8 @@ public void setBaseURL() {
 @Test(dataProvider="DP1")  
 public void test(String usrname,String expMsg) 
 {
-	WebElement btnAR= driver.findElement(By.id("AR"));
-	btnAR.click();
+	WebElement btnARG= driver.findElement(By.id("AR"));
+	btnARG.click();
 	WebElement btnIngresa=driver.findElement(By.xpath("//*[@id=\"nav-header-menu\"]/a[2]"));
 	btnIngresa.click();
 	WebElement userTbox=driver.findElement(By.id("user_id"));
