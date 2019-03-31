@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="org.meliAutomation.Test2">
+      <class name="org.meliAutomation.Test3">
         <methods>
+          <include name="quit"/>
           <include name="setBaseURL"/>
           <include name="test"/>
         </methods>
-      </class> <!-- org.meliAutomation.Test2 -->
+      </class> <!-- org.meliAutomation.Test3 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
