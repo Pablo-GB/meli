@@ -54,6 +54,7 @@
         <configuration>
         <includes>
         <include>Test2.java</include>
+        <include>Test3.java</include>
         </includes>
       <!--     <suiteXmlFiles>
             <suiteXmlFile>testng.xml</suiteXmlFile>

@@ -18,6 +18,7 @@ public class Test3 {
 	public String path=System.getProperty("user.dir");
 	public WebDriver driver;
 	public String baseURL="http://google.com";
+	
 @BeforeMethod
 public void setBaseURL() {
 	System.setProperty("webdriver.chrome.driver",path+"\\chromeDriver\\chromedriver.exe");
