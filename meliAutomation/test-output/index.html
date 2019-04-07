@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Pablo\AppData\Local\Temp\testng-eclipse-622204448\testng-customsuite.xml</span>
+                    <span>C:\Users\Pablo\AppData\Local\Temp\testng-eclipse--1365538655\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,7 +101,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.meliAutomation.Test3" hash-for-method="test">test</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.meli.test.LoginParameters" hash-for-method="LoginMessageTest(p@gmail.com, Ingresaste un e-mail o usuario de Mercado Libre Costa Rica)">LoginMessageTest(p@gmail.com, Ingresaste un e-mail o usuario de Mercado Libre Costa Rica)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.meli.test.LoginParameters" hash-for-method="LoginMessageTest(a@gmail.com, Ingresaste un e-mail o usuario de Mercado Libre México)">LoginMessageTest(a@gmail.com, Ingresaste un e-mail o usuario de Mercado Libre México)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -119,14 +124,23 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">org.meliAutomation.Test3</span>
+              <span class="class-name">org.meli.test.LoginParameters</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test">
-                  </a> <!-- test -->
-                  <span class="method-name">test</span>
+                  <a name="LoginMessageTest(p@gmail.com, Ingresaste un e-mail o usuario de Mercado Libre Costa Rica)">
+                  </a> <!-- LoginMessageTest(p@gmail.com, Ingresaste un e-mail o usuario de Mercado Libre Costa Rica) -->
+                  <span class="method-name">LoginMessageTest</span>
+                  <span class="parameters">(p@gmail.com, Ingresaste un e-mail o usuario de Mercado Libre Costa Rica)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginMessageTest(a@gmail.com, Ingresaste un e-mail o usuario de Mercado Libre México)">
+                  </a> <!-- LoginMessageTest(a@gmail.com, Ingresaste un e-mail o usuario de Mercado Libre México) -->
+                  <span class="method-name">LoginMessageTest</span>
+                  <span class="parameters">(a@gmail.com, Ingresaste un e-mail o usuario de Mercado Libre México)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -134,7 +148,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Pablo\AppData\Local\Temp\testng-eclipse-622204448\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Pablo\AppData\Local\Temp\testng-eclipse--1365538655\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -143,7 +157,7 @@
 &lt;suite name=&quot;Default suite&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;org.meliAutomation.Test3&quot;/&gt;
+      &lt;class name=&quot;org.meli.test.LoginParameters&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -183,16 +197,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test')
-data.setCell(0, 2, 'org.meliAutomation.Test3')
-data.setCell(0, 3, 2325);
+data.setCell(0, 1, 'LoginMessageTest')
+data.setCell(0, 2, 'org.meli.test.LoginParameters')
+data.setCell(0, 3, 4716);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'LoginMessageTest')
+data.setCell(1, 2, 'org.meli.test.LoginParameters')
+data.setCell(1, 3, 4205);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -218,18 +236,30 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">org.meliAutomation.Test3</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">org.meli.test.LoginParameters</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setBaseURL</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">test</span>
-                <span class="method-start">8724 ms</span>
+                <span class="method-name">LoginMessageTest(p@gmail.com, Ingresaste un e-mail o usuario de Mercado Libre Costa Rica)</span>
+                <span class="method-start">3587 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">11050 ms</span>
+                <span class="method-start">8304 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setBaseURL</span>
+                <span class="method-start">8939 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginMessageTest(a@gmail.com, Ingresaste un e-mail o usuario de Mercado Libre México)</span>
+                <span class="method-start">12388 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">16594 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

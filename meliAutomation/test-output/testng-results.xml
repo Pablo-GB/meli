@@ -1,25 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11720" started-at="2019-03-31T04:51:36Z" finished-at="2019-03-31T04:51:48Z">
+  <suite name="Default suite" duration-ms="17676" started-at="2019-04-07T06:17:32Z" finished-at="2019-04-07T06:17:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11720" started-at="2019-03-31T04:51:36Z" finished-at="2019-03-31T04:51:48Z">
-      <class name="org.meliAutomation.Test3">
-        <test-method status="PASS" signature="setBaseURL()[pri:0, instance:org.meliAutomation.Test3@7c16905e]" name="setBaseURL" is-config="true" duration-ms="8724" started-at="2019-03-31T01:51:36Z" finished-at="2019-03-31T01:51:45Z">
+    <test name="Default test" duration-ms="17676" started-at="2019-04-07T06:17:32Z" finished-at="2019-04-07T06:17:49Z">
+      <class name="org.meli.test.LoginParameters">
+        <test-method status="PASS" signature="setBaseURL()[pri:0, instance:org.meli.test.LoginParameters@7dc7cbad]" name="setBaseURL" is-config="true" duration-ms="3586" started-at="2019-04-07T03:17:32Z" finished-at="2019-04-07T03:17:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBaseURL -->
-        <test-method status="PASS" signature="test()[pri:0, instance:org.meliAutomation.Test3@7c16905e]" name="test" duration-ms="2325" started-at="2019-03-31T01:51:45Z" finished-at="2019-03-31T01:51:47Z">
+        <test-method status="PASS" signature="LoginMessageTest(java.lang.String, java.lang.String)[pri:0, instance:org.meli.test.LoginParameters@7dc7cbad]" name="LoginMessageTest" duration-ms="4716" started-at="2019-04-07T03:17:36Z" data-provider="DP1" finished-at="2019-04-07T03:17:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[p@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ingresaste un e-mail o usuario de Mercado Libre Costa Rica]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:org.meliAutomation.Test3@7c16905e]" name="quit" is-config="true" duration-ms="659" started-at="2019-03-31T01:51:47Z" finished-at="2019-03-31T01:51:48Z">
+        </test-method> <!-- LoginMessageTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:org.meli.test.LoginParameters@7dc7cbad]" name="quit" is-config="true" duration-ms="635" started-at="2019-04-07T03:17:41Z" finished-at="2019-04-07T03:17:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-      </class> <!-- org.meliAutomation.Test3 -->
+        <test-method status="PASS" signature="setBaseURL()[pri:0, instance:org.meli.test.LoginParameters@7dc7cbad]" name="setBaseURL" is-config="true" duration-ms="3449" started-at="2019-04-07T03:17:41Z" finished-at="2019-04-07T03:17:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBaseURL -->
+        <test-method status="PASS" signature="LoginMessageTest(java.lang.String, java.lang.String)[pri:0, instance:org.meli.test.LoginParameters@7dc7cbad]" name="LoginMessageTest" duration-ms="4205" started-at="2019-04-07T03:17:45Z" data-provider="DP1" finished-at="2019-04-07T03:17:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ingresaste un e-mail o usuario de Mercado Libre México]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginMessageTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:org.meli.test.LoginParameters@7dc7cbad]" name="quit" is-config="true" duration-ms="629" started-at="2019-04-07T03:17:49Z" finished-at="2019-04-07T03:17:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- org.meli.test.LoginParameters -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

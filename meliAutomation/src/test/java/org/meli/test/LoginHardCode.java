@@ -1,4 +1,4 @@
-package org.meliAutomation;
+package org.meli.test;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.*;
@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.*;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
-public class Test1 {
+public class LoginHardCode {
 	public String path=System.getProperty("user.dir");
 	public WebDriver driver;
 	public String baseURL="http://mercadolibre.com";

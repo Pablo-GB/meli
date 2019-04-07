@@ -1,15 +1,15 @@
-package org.meliReadExcelLib;
+package org.meli.utilities;
 
 import java.io.File;
 import java.io.FileInputStream;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-public class ReadExcelConfig {
+public class ReadExcel {
 	XSSFWorkbook wb;
 	XSSFSheet sheet1;
 	
-	public ReadExcelConfig(String path) 
+	public ReadExcel(String path) 
 	{
 		File src =new File(path);
 		FileInputStream fis;

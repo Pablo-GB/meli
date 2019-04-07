@@ -53,8 +53,8 @@
         <version>3.0.0-M3</version>
         <configuration>
         <includes>
-        <include>Test2.java</include>
-        <include>Test3.java</include>
+        <include>GoogleSearch.java</include>
+        <include>LoginParameters.java</include>
         </includes>
       <!--     <suiteXmlFiles>
             <suiteXmlFile>testng.xml</suiteXmlFile>
