@@ -1,4 +1,4 @@
-package org.meli.test;
+package org.meli.tests;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.*;
@@ -10,6 +10,8 @@ public class LoginHardCode {
 	public String path=System.getProperty("user.dir");
 	public WebDriver driver;
 	public String baseURL="http://mercadolibre.com";
+	
+	
 @BeforeMethod
 public void setBaseURL() {
 	System.setProperty("webdriver.chrome.driver",path+"\\chromeDriver\\chromedriver.exe");

@@ -23,8 +23,8 @@ public class MeliLoginPage {
    @FindBy(how=How.XPATH, using="//*[@id=\"login_user_form\"]/div[1]/div/div/label/span/span/div/div") WebElement msgError;
 
    public String getLoginMessageText() {
-	   String currentTitle=msgError.getText();
-	   return currentTitle;
+	   return msgError.getText();
+	 
    }
  
 	  

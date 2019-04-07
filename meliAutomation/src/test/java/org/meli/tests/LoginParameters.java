@@ -1,4 +1,4 @@
-package org.meli.test;
+package org.meli.tests;
 import java.util.concurrent.TimeUnit;
 import org.meli.pages.MeliLoginPage;
 import org.meli.test.base.TestBase;

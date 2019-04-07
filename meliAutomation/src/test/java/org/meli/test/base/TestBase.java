@@ -15,9 +15,7 @@ public class TestBase {
 		return driver;
 	}
 	
-	public String getPath() {
-		return path;
-	}
+
 
 
 }
